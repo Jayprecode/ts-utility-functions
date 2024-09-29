@@ -1,5 +1,5 @@
 ```ts
-export const sortArrayLatestFirst = <T extends { createdAt: Date | string; updatedAt?: Date | string }>(
+export const sortArrayLatestFirstByDate = <T extends { createdAt: Date | string; updatedAt?: Date | string }>(
 	data: T[]
 ): T[] => {
 	return data.sort(
